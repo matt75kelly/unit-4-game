@@ -24,6 +24,7 @@ function newGame(){
         }
     }
     // Update these new Values onto the Webpage
+    $("#runningScore").text(runningScore);
     $("#targetScore").text(targetScore);
     $("#wins").text(wins);
     $("#losses").text(losses);
