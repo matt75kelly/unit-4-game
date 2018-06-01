@@ -7,7 +7,7 @@ var crystalValues=[0, 0, 0, 0];
 // Function for setting up a new game;
 function newGame(){
     // Removing previous values from the runningScore and crystalValues
-    runningScore = 0;
+    runningScore =0;
     crystalValues=[0, 0, 0, 0];
     // Set targetScore to a random value between 19 and 120;
     targetScore= 19 + Math.floor(Math.random()* 102);
@@ -28,7 +28,6 @@ function newGame(){
     $("#targetScore").text(targetScore);
     $("#wins").text(wins);
     $("#losses").text(losses);
-    console.log (crystalValues);
 }
 $(document).ready(function(){
     newGame();
