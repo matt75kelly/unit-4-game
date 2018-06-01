@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://cdn.suwalls.com/wallpapers/3d/blue-crystal-explosion-29889-1920x1080.jpg);
+    background-size: auto;
+}
+#gameTitle {
+    background-color: cadetblue;
+    border: 2px solid navy;
+    margin: 2vh 0 2vh 0;
+    padding: 0.25vh 2vw;
+}
+#instructions {
+    box-sizing: border-box;
+    padding: 1vh 2vw;
+    line-height: 4.5vh;
+    font-size: 1.2em;
+    color: whitesmoke;
+    background-color: cadetblue;
+    border: 2px solid navy;
+}
+.targetScoreBoard {
+    height: 10vh;
+    color: whitesmoke;
+    background-color: cornflowerblue;
+    border: 2px solid navy;
+    margin: 3.5vh 4vh;
+    box-sizing: border-box;
+    padding-top: 2.5vh;
+    font-size: 2rem;
+    text-align: center;
+}
+.statBoard {
+    color: whitesmoke;
+    background-color: cornflowerblue;
+    border: 2px solid navy;
+    margin: 1vh;
+    box-sizing: border-box;
+    padding-top: 2vh;
+    font-size: 1.6rem;
+    text-align: center;
+}
+#statusMessage {
+    font-size: 0.8em;
+}
+.crystalBank {
+    margin: .5vh;
+}
+.runningBoard {
+    box-sizing: border-box;
+    font-size: 1.6em;
+    padding: 1vw;
+    background-color: cadetblue;
+    color: whitesmoke;
+    margin: .5vh;
+    border: 2px solid navy;
+}
+.crystal {
+    width: 200px;
+    height: 200px;
+    margin: 1vh 3.5vh;
+}
